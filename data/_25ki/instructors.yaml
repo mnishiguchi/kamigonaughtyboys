@@ -1,0 +1,16 @@
+list:
+- role: 監督
+  number: 30
+  name: 金丸　雅俊
+
+- role: コーチ
+  number: 29
+  name: 土屋　紀之
+
+- role: コーチ
+  number: 28
+  name: 中谷　文雄
+
+- role: コーチ
+  number:
+  name: 飛川　伸

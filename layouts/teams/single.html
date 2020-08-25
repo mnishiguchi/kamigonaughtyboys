@@ -1,0 +1,66 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ $section := .Site.GetPage "section" .Section }}
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          {{/*
+          CurrentSection allows us to use the section title instead of inferring from the folder.
+          https://gohugo.io/variables/page/#section-variables-and-methods
+          */}}
+        {{with .CurrentSection.Title }}{{. | upper }}{{end}}
+      </aside>
+      {{ partial "social-share.html" . }}
+      <h1 class="f1 athelas mt3 mb1">
+        {{- .Title -}}
+      </h1>
+      {{- partial "tags.html" . -}}
+    </header>
+
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l">
+      {{- .Content -}}
+
+      {{/*
+        Team data tables
+        1) Find the last segment of current URL.
+        2) Prepend underscore to the path segment because a variable starting with a number is invalid.
+        3) Retrieve data using that value as a key.
+        */}}
+      {{ $dataKey := printf "_%s" (index (split .URL "/") 2) }}
+      {{ $teamData := index .Site.Data $dataKey }}
+
+      {{ with and $teamData.instructors.list $teamData.players.list }}
+        <div class="mv5">
+          {{ partial "team-instructors.html" $teamData.instructors }}
+          <br>
+          {{ partial "team-players.html" $teamData.players }}
+        </div>
+      {{ end }}
+
+      {{ with $teamData.scores_a.title }}
+        {{ partial "team-scores.html" $teamData.scores_a }}
+      {{ end }}
+
+      {{ with $teamData.scores_b.title }}
+        {{ partial "team-scores.html" $teamData.scores_b }}
+      {{ end }}
+
+      {{ with $teamData.scores_c.title }}
+        {{ partial "team-scores.html" $teamData.scores_c }}
+      {{ end }}
+
+      {{ with $teamData.scores_j.title }}
+        {{ partial "team-scores.html" $teamData.scores_j }}
+      {{ end }}
+    </div>
+
+    <aside class="w-30-l mt6-l">
+      {{- partial "menu-contextual.html" . -}}
+    </aside>
+
+  </article>
+{{ end }}

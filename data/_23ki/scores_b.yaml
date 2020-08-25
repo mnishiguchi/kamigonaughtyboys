@@ -1,0 +1,201 @@
+title: ２０１５年Ｂチーム（５年生）
+total_results: 33戦　17勝　16敗
+list:
+- date: 2015/3/21
+  name: JBLAゲオ杯
+  opponent: 平針HBC少年野球クラブ
+  scores: 5-4
+  victory: "○"
+  memo:
+- date: 3/29
+  name: JBLAゲオ杯
+  opponent: 舘スターズ
+  scores: 2-5
+  victory: "×"
+  memo:
+- date: 4/12
+  name: 強化試合①
+  opponent: 堤スターズ
+  scores: 5-17
+  victory: "×"
+  memo:
+- date: 4/19
+  name: ふれあいカップ予選
+  opponent: 豊田サンボーイズ
+  scores: 4-3
+  victory: "○"
+  memo:
+- date: 4/26
+  name: 挙母教育リーグ予選
+  opponent: 東郷ファイヤーズ
+  scores: 3-1
+  victory: "○"
+  memo:
+- date: 5/3
+  name: 挙母教育リーグ予選
+  opponent: 市木フェニックス
+  scores: 7-9
+  victory: "×"
+  memo:
+- date: 5/24
+  name: 挙母教育リーグ予選
+  opponent: 黒笹少年野球クラブ
+  scores: 6-11
+  victory: "×"
+  memo:
+- date: 5/31
+  name: 挙母教育リーグ予選
+  opponent: ウイングベースボールクラブ
+  scores: 6-8
+  victory: "×"
+  memo:
+- date: 6/6
+  name: JBLA中日スポーツ杯
+  opponent: 東海オーシャン
+  scores: 1-3
+  victory: "×"
+  memo:
+- date: 6/7
+  name: 挙母教育リーグ予選
+  opponent: 豊田レッドスターズ
+  scores: 18-1
+  victory: "○"
+  memo:
+- date: 6/21
+  name: 強化試合②
+  opponent: 緑ヶ丘ウイングス
+  scores: 5-13
+  victory: "×"
+  memo:
+- date: 6/28
+  name: 積水ハウスカップ
+  opponent: 春日井オルティーズ
+  scores: 6-5
+  victory: "○"
+  memo:
+- date: 8/2
+  name: ふれあいカップ予選
+  opponent: 美里バッファローズ
+  scores: 14-4
+  victory: "○"
+  memo:
+- date: 9/13
+  name: JBLAスポーツデポ杯
+  opponent: 双葉ドラゴンズ
+  scores: 0-2
+  victory: "×"
+  memo:
+- date: 9/13
+  name: 豊田市新人戦
+  opponent: 衣丘ペアーズ
+  scores: 3-1
+  victory: "○"
+  memo:
+- date: 9/20
+  name: 豊田市新人戦
+  opponent: 青木グレート
+  scores: 1-2
+  victory: "×"
+  memo:
+- date: 10/4
+  name: 愛球リーグ予選
+  opponent: 安城中央クラブ
+  scores: 2-3
+  victory: "×"
+  memo:
+- date: 10/10
+  name: 積水ハウスカップ
+  opponent: 岡崎ポパイ
+  scores: 1-6
+  victory: "×"
+  memo:
+- date: 10/18
+  name: 愛球リーグ予選
+  opponent: 知立西エンゼルス
+  scores: 8-0
+  victory: "○"
+  memo:
+- date: 10/25
+  name: ふれあいカップ予選
+  opponent: 青木グレート
+  scores: 1-8
+  victory: "×"
+  memo:
+- date: 11/1
+  name: JBLAミズノ・ワイズ杯
+  opponent: 旭丘スカイシャークス
+  scores: 2-2
+  victory: "○"
+  memo: 抽選
+- date: 11/15
+  name: JBLAミズノ・ワイズ杯
+  opponent: 加木屋クラブ
+  scores: 5-1
+  victory: "○"
+  memo:
+- date: 11/22
+  name: JBLAミズノ・ワイズ杯
+  opponent: 亀の子クラブ
+  scores: 0-7
+  victory: "×"
+  memo:
+- date: 11/22
+  name: 愛球リーグ予選
+  opponent: 大浜ファイターズ
+  scores: 3-1
+  victory: "○"
+  memo:
+- date: 11/29
+  name: 愛球リーグ予選
+  opponent: 日高レッツ
+  scores: 6-3
+  victory: "○"
+  memo:
+- date: 12/5
+  name: JBLAスギモト杯
+  opponent: 片平SYC
+  scores: 5-2
+  victory: "○"
+  memo:
+- date: 12/6
+  name: ふれあいカップ決勝T
+  opponent: ドリームボーイズ
+  scores: 3-5
+  victory: "×"
+  memo:
+- date: 12/12
+  name: JBLAスギモト杯
+  opponent: 扶桑ビクトリーズ
+  scores: 6-0
+  victory: "○"
+  memo:
+- date: 12/20
+  name: JBLAスギモト杯
+  opponent: 中京キャロル
+  scores: 2-0
+  victory: "○"
+  memo:
+- date: 2016/1/10
+  name: 愛球リーグ決勝T
+  opponent: 知立ベアーズ
+  scores: 11-3
+  victory: "○"
+  memo:
+- date: 1/16
+  name: 愛球リーグ決勝T
+  opponent: 住吉ベースボール
+  scores: 8-1
+  victory: "○"
+  memo:
+- date: 1/17
+  name: 愛球リーグ準決勝
+  opponent: 有松ジュニアーズ
+  scores: 0-7
+  victory: "×"
+  memo: 3位
+- date: 1/24
+  name: JBLAスギモト杯
+  opponent: ツースリー大府
+  scores: 0-12
+  victory: "×"
+  memo:

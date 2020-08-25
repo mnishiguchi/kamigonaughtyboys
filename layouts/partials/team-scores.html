@@ -1,0 +1,35 @@
+{{/*
+  Scope: team score data
+  */}}
+
+<section class="mv5">
+  <h2>{{ .title }}</h2>
+  <p>{{ .total_results }}</p>
+
+  <div class="overflow-auto">
+    <table class="f6" cellspacing="0">
+      <thead>
+        <tr>
+          <th class="pv3 pr3 bb b--black-20"><b>日時</b></th>
+          <th class="pv3 pr3 bb b--black-20" style="min-width:200px"><b>大会名</b></th>
+          <th class="pv3 pr3 bb b--black-20" style="min-width:200px"><b>対戦相手</b></th>
+          <th class="pv3 pr3 bb b--black-20" style="min-width:80px"><b>スコア</b></th>
+          <th class="pv3 pr3 bb b--black-20"><b>勝敗</b></th>
+          <th class="pv3 pr3 bb b--black-20" style="min-width:200px"><b>備考</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .list }}
+        <tr>
+          <td class="pv3 pr3 bb b--black-20">{{ .date }}</td>
+          <td class="pv3 pr3 bb b--black-20">{{ .name }}</td>
+          <td class="pv3 pr3 bb b--black-20">{{ .opponent }}</td>
+          <td class="pv3 pr3 bb b--black-20">{{ .scores }}</td>
+          <td class="pv3 pr3 bb b--black-20">{{ .victory }}</td>
+          <td class="pv3 pr3 bb b--black-20">{{ .memo }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>

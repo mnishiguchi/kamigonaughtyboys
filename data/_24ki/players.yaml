@@ -1,0 +1,56 @@
+list:
+- number: 1
+  name: 田島　若葉
+  school: 若林東
+  throws: 右
+  bats: 左
+- number: 3
+  name: 梅田　煌生
+  school: 畝部
+  throws: 右
+  bats: 右
+- number: 4
+  name: 向井　賢
+  school: 高嶺
+  throws: 右
+  bats: 右
+- number: 5
+  name: 中村　晃之進
+  school: 畝部
+  throws: 右
+  bats: 右
+- number: 6
+  name: 井上　天翔
+  school: 畝部
+  throws: 右
+  bats: 右
+- number: 10
+  name: 西岡　結士
+  school: 高嶺
+  throws: 左
+  bats: 左
+- number: 11
+  name: 都築　祐斗
+  school: 畝部
+  throws: 右
+  bats: 右
+- number: 12
+  name: 近藤　勢大
+  school: 高嶺
+  throws: 左
+  bats: 左
+- number: 18
+  name: 黒木　統矢
+  school: 寿恵野
+  throws: 右
+  bats: 右
+- number: 19
+  name: 石川　大翔
+  school: 寿恵野
+  throws: 右
+  bats: 左
+- number: 20
+  name: 成瀬　秀矢
+  school: 寿恵野
+  throws: 右
+  bats: 右

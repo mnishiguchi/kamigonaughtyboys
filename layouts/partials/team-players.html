@@ -1,0 +1,28 @@
+{{/*
+  Scope: team players data
+  */}}
+
+<div class="overflow-auto mv2">
+  <table border="1" style="min-width:500px">
+    <thead>
+      <tr>
+        <th align="center">背番号</th>
+        <th align="center">名　前</th>
+        <th align="center">小学校</th>
+        <th align="center">投</th>
+        <th align="center">打</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range .list }}
+      <tr>
+        <td align="center">{{ .number }}</td>
+        <td align="center">{{ .name }}</td>
+        <td align="center">{{ .school }}</td>
+        <td align="center">{{ .throws }}</td>
+        <td align="center">{{ .bats }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>

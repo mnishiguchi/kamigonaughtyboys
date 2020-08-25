@@ -1,0 +1,225 @@
+title: ２０１２年Ｃチーム（４年生）
+total_results: 37戦　23勝　13敗　1分
+list:
+- date: 2012/2/19
+  name: ゲオ杯
+  opponent: 豊田サンボーイズ
+  scores: 0-12
+  victory: "×"
+  memo:
+- date: 3/18
+  name: 練習試合
+  opponent: 三河スターズ
+  scores: 4-7
+  victory: "×"
+  memo:
+- date: 4/1
+  name: 練習試合
+  opponent: 豊田レッドスターズ
+  scores: 12-8
+  victory: "○"
+  memo:
+- date: 4/15
+  name: 練習試合
+  opponent: 堤スターズ
+  scores: 21-3
+  victory: "○"
+  memo:
+- date: 4/29
+  name: 小川杯
+  opponent: 日進ベストドリームス
+  scores: 18-1
+  victory: "○"
+  memo:
+- date: 5/6
+  name: 小川杯
+  opponent: 大府ワイルドボーイズ
+  scores: 8-10
+  victory: "×"
+  memo:
+- date: 5/13
+  name: 小川杯
+  opponent: ファイヤーボーイズ
+  scores: 0-6
+  victory: "×"
+  memo:
+- date: 6/2
+  name: 小川杯
+  opponent: 大須パンサーズ
+  scores: 17-1
+  victory: "○"
+  memo:
+- date: 6/10
+  name: 練習試合
+  opponent: 岡崎ポパイ
+  scores: 9-3
+  victory: "○"
+  memo:
+- date: 6/17
+  name: 小川杯
+  opponent: 名古屋ドジャース
+  scores: 2-12
+  victory: "×"
+  memo:
+- date: 6/24
+  name: 練習試合
+  opponent: 岡崎南クラブ
+  scores: 4-2
+  victory: "○"
+  memo:
+- date: 6/24
+  name: 練習試合
+  opponent: 岡崎南クラブ
+  scores: 8-12
+  victory: "×"
+  memo:
+- date: 7/15
+  name: 小川杯
+  opponent: 中小田井ＪＢＣ
+  scores: 2-5
+  victory: "×"
+  memo:
+- date: 8/26
+  name: 練習試合
+  opponent: 大林ヤンキース
+  scores: 24-3
+  victory: "○"
+  memo:
+- date: 9/2
+  name: 愛球会教育リーグ
+  opponent: サンデージュニア
+  scores: 7-2
+  victory: "○"
+  memo:
+- date: 9/9
+  name: 愛球会教育リーグ
+  opponent: 豊田サンボーイズ
+  scores: 0-18
+  victory: "×"
+  memo:
+- date: 9/15
+  name: 練習試合
+  opponent: 高橋ファイターズ
+  scores: 7-5
+  victory: "○"
+  memo:
+- date: 9/16
+  name: 愛球会教育リーグ
+  opponent: 旭丘スカイシャークス
+  scores: 8-2
+  victory: "○"
+  memo:
+- date: 9/30
+  name: 挙母教育リーグ
+  opponent: 岡崎タフィーズ
+  scores: 7-3
+  victory: "○"
+  memo:
+- date: 10/6
+  name: 愛球会教育リーグ
+  opponent: 新蟹江ベアーズ
+  scores: 13-0
+  victory: "○"
+  memo:
+- date: 10/6
+  name: 愛球会教育リーグ
+  opponent: 青木グレート
+  scores: 4-3
+  victory: "○"
+  memo:
+- date: 10/14
+  name: 挙母教育リーグ
+  opponent: 市木フェニックス
+  scores: 14-1
+  victory: "○"
+  memo:
+- date: 10/21
+  name: 愛球会教育リーグ
+  opponent: 大林ヤンキース
+  scores: 11-4
+  victory: "○"
+  memo:
+- date: 10/27
+  name: ミズノ・コロナ杯
+  opponent: 木曽川ＪＢＣ
+  scores: 8-5
+  victory: "○"
+  memo:
+- date: 11/4
+  name: ミズノ・コロナ杯
+  opponent: 中小田井ＪＢＣ
+  scores: 5-7
+  victory: "×"
+  memo:
+- date: 11/18
+  name: 練習試合
+  opponent: 名古屋ＴＬＣクラブ
+  scores: 2-1
+  victory: "○"
+  memo:
+- date: 11/18
+  name: 練習試合
+  opponent: 名古屋ＴＬＣクラブ
+  scores: 13-1
+  victory: "○"
+  memo:
+- date: 11/24
+  name: 挙母教育リーグ
+  opponent: 山之手少年野球
+  scores: 14-7
+  victory: "○"
+  memo:
+- date: 11/25
+  name: 愛球会教育リーグ
+  opponent: 平針ＨＢＣ
+  scores: 4-2
+  victory: "○"
+  memo:
+- date: 12/2
+  name: 挙母教育リーグ
+  opponent: 堤スターズ
+  scores: 3-6
+  victory: "×"
+  memo:
+- date: 12/8
+  name: 挙母教育リーグ
+  opponent: 大林ヤンキース
+  scores:
+  victory: "○"
+  memo:
+- date: 12/9
+  name: 愛球会教育リーグ
+  opponent: 六田ファイターズ
+  scores: 2-1
+  victory: "○"
+  memo:
+- date: 12/16
+  name: 挙母教育リーグ
+  opponent: 中山クラブ
+  scores: 16-1
+  victory: "○"
+  memo:
+- date: 12/23
+  name: 練習試合
+  opponent: 安城中央クラブ
+  scores: 4-7
+  victory: "×"
+  memo:
+- date: 12/23
+  name: 練習試合
+  opponent: 安城中央クラブ
+  scores: 4-4
+  victory: "△"
+  memo:
+- date: 2013/1/20
+  name: 愛球会教育リーグ
+  opponent: ファイヤーボーイズ
+  scores: 0-8
+  victory: "×"
+  memo: ３位
+- date: 1/27
+  name: 挙母教育リーグ
+  opponent: 豊田サンボーイズ
+  scores: 0-0
+  victory: "×"
+  memo: サドンデス（1-3）３位

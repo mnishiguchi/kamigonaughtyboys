@@ -2,10 +2,10 @@
 other = "関連記事"
 
 [allTitle]
-other = "全{{.Title }}"
+other = "全記事"
 
 [recentTitle]
-other = "最新{{.Title }}"
+other = "最新記事"
 
 [readMore]
 other = "続きを読む"
@@ -32,4 +32,4 @@ other = "Emailアドレスは必須項目です。"
 other = "送信"
 
 [taxonomyPageList]
-other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+other = "「{{ .Title }}」関連"

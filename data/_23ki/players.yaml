@@ -1,0 +1,51 @@
+list:
+- number: 10
+  name: 大八木　颯汰
+  school: 畝部
+  throws: 右
+  bats: 右
+- number: 1
+  name: 山下　優
+  school: 高嶺
+  throws: 左
+  bats: 左
+- number: 3
+  name: 浅井　絢成
+  school: 若林東
+  throws: 右
+  bats: 右
+- number: 4
+  name: 深谷　柊羽
+  school: 竹村
+  throws: 右
+  bats: 左
+- number: 6
+  name: 栄　柊磨
+  school: 矢作東
+  throws: 右
+  bats: 右
+- number: 7
+  name: 築山　怜央
+  school: 高嶺
+  throws: 右
+  bats: 左
+- number: 8
+  name: 高嶋　亮太
+  school: 山之手
+  throws: 右
+  bats: 右
+- number: 11
+  name: 近藤　駿充
+  school: 畝部
+  throws: 右
+  bats: 右
+- number: 17
+  name: 山本　哲平
+  school: 若林東
+  throws: 右
+  bats: 右
+- number: 18
+  name: 戸田　樹実哉
+  school: 堤
+  throws: 左
+  bats: 左

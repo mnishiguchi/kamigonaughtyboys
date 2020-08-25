@@ -1,0 +1,90 @@
+list:
+- number: 10
+  name: 伊奈　幸真
+  school: 北野
+  throws: 右
+  bats: 右
+
+- number: 8
+  name: 永谷　朝希
+  school: 若園
+  throws: 右
+  bats: 右
+
+- number: 7
+  name: 阿部　寛大
+  school: 若林東
+  throws: 右
+  bats: 右
+
+- number: 3
+  name: 川井　惇寛
+  school: 若林東
+  throws: 左
+  bats: 左
+
+- number: 2
+  name: 高木　達
+  school: 若林西
+  throws: 右
+  bats: 右
+
+- number: 15
+  name: 織田　一護
+  school: 山之手
+  throws: 右
+  bats: 右
+
+- number: 9
+  name: 伊豫田　羽留矢
+  school: 高嶺
+  throws: 右
+  bats: 右
+
+- number: 5
+  name: 高橋　宗汰
+  school: 若林西
+  throws: 右
+  bats: 右
+
+- number: 6
+  name: 新口　悠真
+  school: 若林西
+  throws: 右
+  bats: 右
+
+- number: 4
+  name: 柴田　晃佑
+  school: 高嶺
+  throws: 右
+  bats: 右
+
+- number: 16
+  name: 福山　晴太
+  school: 若園
+  throws: 右
+  bats: 左
+
+- number: 23
+  name: 本久　倖多
+  school: 高嶺
+  throws: 右
+  bats: 右
+
+- number: 1
+  name: 都築　拓真
+  school: 若林西
+  throws: 右
+  bats: 右
+
+- number: 11
+  name: 阿部　太一
+  school: 畝部
+  throws: 右
+  bats: 左
+
+- number: 12
+  name: 橋口　侑京
+  school: 高嶺
+  throws: 右
+  bats: 右

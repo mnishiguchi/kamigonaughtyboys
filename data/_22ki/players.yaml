@@ -1,0 +1,76 @@
+list:
+- number: 10
+  name: 川　嶋
+  school:
+  throws:
+  bats:
+- number: 1
+  name: 木　村
+  school:
+  throws:
+  bats:
+- number: 2
+  name: 石　井
+  school:
+  throws:
+  bats:
+- number: 3
+  name: 近　藤
+  school:
+  throws:
+  bats:
+- number: 4
+  name: 櫻　井
+  school:
+  throws:
+  bats:
+- number: 5
+  name: 神　谷
+  school:
+  throws:
+  bats:
+- number: 6
+  name: 野　場
+  school:
+  throws:
+  bats:
+- number: 8
+  name: 永　谷
+  school:
+  throws:
+  bats:
+- number: 9
+  name: 大八木
+  school:
+  throws:
+  bats:
+- number: 11
+  name: 中　神
+  school:
+  throws:
+  bats:
+- number: 12
+  name: 向　井
+  school:
+  throws:
+  bats:
+- number: 14
+  name: 岡　久
+  school:
+  throws:
+  bats:
+- number: 19
+  name: 織　田
+  school:
+  throws:
+  bats:
+- number: 24
+  name: 宮　脇
+  school:
+  throws:
+  bats:
+- number: 25
+  name: 田　島
+  school:
+  throws:
+  bats:
