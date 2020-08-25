@@ -1,0 +1,35 @@
+[more]
+other = "関連記事"
+
+[allTitle]
+other = "全{{.Title }}"
+
+[recentTitle]
+other = "最新{{.Title }}"
+
+[readMore]
+other = "続きを読む"
+
+[whatsInThis]
+other = "この{{ .Type }}について"
+
+[related]
+other = "関連"
+
+[yourName]
+other = "お名前"
+
+[emailAddress]
+other = "Emailアドレス"
+
+[message]
+other = "本文"
+
+[emailRequiredNote]
+other = "Emailアドレスは必須項目です。"
+
+[send]
+other = "送信"
+
+[taxonomyPageList]
+other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
