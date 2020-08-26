@@ -2,6 +2,13 @@
   Scope: team score data
   */}}
 
+{{ $has_date := (index .list 1).date }}
+{{ $has_name := (index .list 1).name }}
+{{ $has_opponent := (index .list 1).opponent }}
+{{ $has_scores := (index .list 1).scores }}
+{{ $has_victory := (index .list 1).victory }}
+{{ $has_memo := (index .list 1).memo }}
+
 <section class="mv5">
   <h2>{{ .title }}</h2>
   <p>{{ .total_results }}</p>
@@ -10,23 +17,23 @@
     <table class="f6" cellspacing="0">
       <thead>
         <tr>
-          <th class="pv3 pr3 bb b--black-20"><b>日時</b></th>
-          <th class="pv3 pr3 bb b--black-20" style="min-width:200px"><b>大会名</b></th>
-          <th class="pv3 pr3 bb b--black-20" style="min-width:200px"><b>対戦相手</b></th>
-          <th class="pv3 pr3 bb b--black-20" style="min-width:80px"><b>スコア</b></th>
-          <th class="pv3 pr3 bb b--black-20"><b>勝敗</b></th>
-          <th class="pv3 pr3 bb b--black-20" style="min-width:200px"><b>備考</b></th>
+          {{ if $has_date }}<th class="pv3 pr3 bb b--black-20 tc"><b>日時</b></th>{{ end }}
+          {{ if $has_name }}<th class="pv3 pr3 bb b--black-20 tc" style="min-width:200px"><b>大会名</b></th>{{ end }}
+          {{ if $has_opponent }}<th class="pv3 pr3 bb b--black-20 tc" style="min-width:200px"><b>対戦相手</b></th>{{ end }}
+          {{ if $has_scores }}<th class="pv3 pr3 bb b--black-20 tc" style="min-width:80px"><b>スコア</b></th>{{ end }}
+          {{ if $has_victory }}<th class="pv3 pr3 bb b--black-20 tc"><b>勝敗</b></th>{{ end }}
+          {{ if $has_memo }}<th class="pv3 pr3 bb b--black-20 tc" style="min-width:200px"><b>備考</b></th>{{ end }}
         </tr>
       </thead>
       <tbody>
         {{ range .list }}
         <tr>
-          <td class="pv3 pr3 bb b--black-20">{{ .date }}</td>
-          <td class="pv3 pr3 bb b--black-20">{{ .name }}</td>
-          <td class="pv3 pr3 bb b--black-20">{{ .opponent }}</td>
-          <td class="pv3 pr3 bb b--black-20">{{ .scores }}</td>
-          <td class="pv3 pr3 bb b--black-20">{{ .victory }}</td>
-          <td class="pv3 pr3 bb b--black-20">{{ .memo }}</td>
+          {{ if $has_date }}<td class="pv3 pr3 bb b--black-20 tc">{{ .date }}</td>{{ end }}
+          {{ if $has_name }}<td class="pv3 pr3 bb b--black-20 tc">{{ .name }}</td>{{ end }}
+          {{ if $has_opponent }}<td class="pv3 pr3 bb b--black-20 tc">{{ .opponent }}</td>{{ end }}
+          {{ if $has_scores }}<td class="pv3 pr3 bb b--black-20 tc">{{ .scores }}</td>{{ end }}
+          {{ if $has_victory }}<td class="pv3 pr3 bb b--black-20 tc">{{ .victory }}</td>{{ end }}
+          {{ if $has_memo }}<td class="pv3 pr3 bb b--black-20 tc">{{ .memo }}</td>{{ end }}
         </tr>
         {{ end }}
       </tbody>

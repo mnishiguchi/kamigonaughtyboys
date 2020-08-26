@@ -40,12 +40,27 @@
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
+
+    <script>
+      (function () {
+        // https://discourse.gohugo.io/t/active-links-in-menu/8717/11
+        document.addEventListener('turbolinks:load', function () {
+          const links = document.getElementsByTagName('a');
+          const currentUrl = location.href;
+          for (const link of links) {
+            if (link.href === currentUrl) {
+              link.setAttribute('aria-current', true);
+            }
+          }
+        });
+      })();
+    </script>
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main class="pb7" role="main">
+    <main class="pb7 mw8" role="main" style="margin:0 auto;min-height:90vh">
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}

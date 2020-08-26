@@ -10,7 +10,13 @@
   padding: 8px 12px;
 }
 .pagination .active > .page-link {
-  background:#0275d8;
+  background: #0275d8;
   color: #fff;
   padding: 8px 12px;
+}
+[aria-current] {
+  color: #abc;
+}
+[aria-current]:hover {
+  color: #abc;
 }
