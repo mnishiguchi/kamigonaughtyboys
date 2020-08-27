@@ -1,8 +1,24 @@
 {{/* Layout for the landing page */}}
 {{ define "main" }}
-  <article class="ph3 ph5-l pv3 pv4-l f4 tc-l center lh-copy mid-gray">
-    {{ .Content }}
-  </article>
+  <section class="ph3 ph5-l pv3 pv4-l f4 tc-l center lh-copy mid-gray">
+    <marquee class="navy">{{ .Params.marquee }}</marquee>
+
+    <img src="{{ .Params.main_photo }}" alt="上郷ノーティボーイズ">
+
+    <section class="pa4">
+      <p>{{ .Params.general_manager.message }}</p>
+      <figure>
+        <img src="{{ .Params.general_manager.photo }}" alt="代表 {{ .Params.general_manager.name }}" />
+        <div class="pa2">
+          <p class="gray mv1">
+            代表　{{ .Params.general_manager.name }}
+          </p>
+        </div>
+      </figure>
+    </section>
+  </section>
+
+  {{ .Content }}
 
   <section class="pa4">
     <h2 id="schedule">予定表</h2>
