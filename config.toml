@@ -1,6 +1,7 @@
 # This site is based on the Ananke theme. The Ananke theme documentation:
 # https://github.com/theNewDynamic/gohugo-theme-ananke/tree/master
-baseURL = "https://kamigonaughtyboys.web.fc2.com"
+# baseURL = "https://kamigonaughtyboys.web.fc2.com"
+baseURL = "https://kamigonaughtyboys.netlify.app"
 languageCode = "ja"
 title = "上郷ノーティボーイズ"
 
