@@ -1,1 +1,72 @@
 list:
+  - number:
+    name: 大岡　煌季
+    school: 高嶺
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 川田　悠斗
+    school: 寿恵
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 種崎　葵
+    school: 高嶺
+    throws: 右
+    bats: 左
+
+  - number:
+    name: 伊豫田　幸起
+    school: 高嶺
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 日置　瑛斗
+    school: 高嶺
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 佐藤　航大
+    school: 若林東
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 神谷　桜太郎
+    school: 若林西
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 堀　生颯
+    school: 若林西
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 柏田　琉伊
+    school: 高嶺
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 成瀬　流空
+    school: 高嶺
+    throws: 右
+    bats: 右
+
+  - number:
+    name: 松本　大輝
+    school: 北野
+    throws: 右
+    bats: 左
+
+  - number:
+    name: 中田　李仁
+    school: 若林東
+    throws: 右
+    bats: 右

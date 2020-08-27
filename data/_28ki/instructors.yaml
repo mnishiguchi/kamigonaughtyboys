@@ -1,1 +1,20 @@
 list:
+  - role: 監督
+    number: 30
+    name: 中谷　文雄
+
+  - role: コーチ
+    number:
+    name: 林田　誠之
+
+  - role: コーチ
+    number:
+    name: 飛川　伸
+
+  - role: コーチ
+    number:
+    name: 岡崎　誠治
+
+  - role: コーチ
+    number:
+    name: 鴛海　豊和
