@@ -1,0 +1,71 @@
+list:
+  - number: 22
+    name: 太田　光洋
+    school: 寿恵野
+    throws: 右
+    bats: 右
+  - number: 11
+    name: 伊奈　寿也
+    school: 北野
+    throws: 右
+    bats: 右
+  - number: 1
+    name: 永谷　希
+    school: 若園
+    throws: 右
+    bats: 右
+  - number: 6
+    name: 星屋　駿斗
+    school: 高嶺
+    throws: 右
+    bats: 右
+  - number: 19
+    name: 真崎　暖士
+    school: 寿恵野
+    throws: 右
+    bats: 右
+  - number: 3
+    name: 長坂　竜佑
+    school: 若林東
+    throws: 右
+    bats: 右
+  - number: 18
+    name: 加藤　壮真
+    school: 若林東
+    throws: 左
+    bats: 右
+  - number: 8
+    name: 水谷　昊代
+    school: 若林東
+    throws: 右
+    bats: 右
+  - number: 16
+    name: 宮川　颯斗
+    school: 大林
+    throws: 右
+    bats: 右
+  - number: 24
+    name: 西口　遼
+    school: 若林西
+    throws: 右
+    bats: 右
+  - number: 10
+    name: 大八木　駿
+    school: 畝部
+    throws: 右
+    bats: 左
+  - number: 23
+    name: 手島　大翔
+    school: 高嶺
+    throws: 右
+    bats: 右
+  - number: 12
+    name: 由良　蒼葉
+    school: 北野
+    throws: 右
+    bats: 右
+  - number: 13
+    name: 岸本　頼雅
+    school: 北野
+    throws: 左
+    bats: 左

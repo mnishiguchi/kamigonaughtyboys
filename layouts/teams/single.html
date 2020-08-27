@@ -32,7 +32,7 @@
       {{ $dataKey := printf "_%s" (index (split .URL "/") 2) }}
       {{ $teamData := index .Site.Data $dataKey }}
 
-      {{ with and $teamData.instructors.list $teamData.players.list }}
+      {{ with or $teamData.instructors.list $teamData.players.list }}
         <div class="mv5">
           {{ partial "team-instructors.html" $teamData.instructors }}
           <br>

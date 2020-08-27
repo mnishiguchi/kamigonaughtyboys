@@ -35,3 +35,8 @@ body_classes = ""
 # Specify sections to pull recent posts from.
 mainSections = ["articles"]
 cover_dimming_class = "bg-black-30"
+
+[markup.goldmark.renderer]
+# This is a workdown so that we can embed HTML tags in a markdown file.
+# https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032
+unsafe= true
