@@ -26,19 +26,19 @@
     {{ $scheduleData := .Site.Data.schedule }}
 
     {{ if (index $scheduleData.team_a 0).date }}
-      <h3>A</h3>
+      <h3>Ａチーム</h3>
       {{ partial "schedule-table.html" $scheduleData.team_a }}
     {{ end }}
     {{ if (index $scheduleData.team_b 0).date }}
-      <h3>B</h3>
+      <h3>Ｂチーム</h3>
       {{ partial "schedule-table.html" $scheduleData.team_b }}
     {{ end }}
     {{ if (index $scheduleData.team_c 0).date }}
-      <h3>C</h3>
+      <h3>Ｃチーム</h3>
       {{ partial "schedule-table.html" $scheduleData.team_c }}
     {{ end }}
     {{ if (index $scheduleData.team_j 0).date }}
-      <h3>Jr</h3>
+      <h3>Ｊｒチーム</h3>
       {{ partial "schedule-table.html" $scheduleData.team_j }}
     {{ end }}
   </section>
