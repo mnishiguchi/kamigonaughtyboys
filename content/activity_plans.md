@@ -1,12 +1,11 @@
 ---
-title: 年間活動計画
+title: 活動計画
 omit_header_text: true
 description: We'd love to hear from you
 type: page
-weight: ４
 menu:
   main:
-    identifier: annual_plan
+    weight: 4
 ---
 
 ![](/images/annual-plan-2019.jpg)

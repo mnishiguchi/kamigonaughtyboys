@@ -24,3 +24,14 @@
     </div>
   </div>
 </nav>
+
+<!--
+{{/* Comment out to see current menu config */}}
+{{ if not (eq (getenv "HUGO_ENV") "production") }}
+  {{ range .Site.Menus.main }}
+    <pre class="white">
+      {{ . }}
+    </pre>
+  {{ end }}
+{{ end }}
+ -->

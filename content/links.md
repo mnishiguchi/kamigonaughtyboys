@@ -3,10 +3,9 @@ title: リンク集
 omit_header_text: true
 description: We'd love to hear from you
 type: page
-weight: 5
 menu:
   main:
-    identifier: links
+    weight: 9
 ---
 
 - [豊田市軟式野球連盟](http://www.hm8.aitai.ne.jp/~tnyr/gakudou.html)
