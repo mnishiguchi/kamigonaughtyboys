@@ -1,7 +1,7 @@
 ---
 title: "チーム"
 omit_header_text: true
-date: 2017-03-02T12:00:00-05:00
+date: 2020-08-27
 weight: 1
 ---
 

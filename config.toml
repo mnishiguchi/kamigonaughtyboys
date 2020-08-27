@@ -20,7 +20,6 @@ priority = 0.5
 
 [params]
 description = "愛知県豊田市南部にある少年軟式野球チーム・上郷ノーティボーイズです。"
-contact_url = "https://form1ssl.fc2.com/form/?id=74746e156645fde2"
 facebook = ""
 favicon = ""
 instagram = ""
@@ -43,4 +42,4 @@ cover_dimming_class = "bg-black-30"
 [markup.goldmark.renderer]
 # This is a workdown so that we can embed HTML tags in a markdown file.
 # https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032
-unsafe= true
+unsafe = true

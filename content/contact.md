@@ -1,7 +1,7 @@
 ---
+date: 2020-01-01
 title: お問い合わせ
 omit_header_text: true
-description: 体験・見学・入団希望の方は、折り返し学年代表よりＴＥＬかメールさせていただきます。
 type: page
 menu:
   main:

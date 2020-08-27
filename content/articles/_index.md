@@ -1,6 +1,6 @@
 ---
 title: 記事
-date: 2017-03-02T12:00:00-05:00
+date: 2020-08-27
 omit_header_text: true
 weight: 2
 ---

@@ -1,5 +1,5 @@
 ---
-description: 愛知県豊田市南部にある少年軟式野球チームです。
+date: 2020-01-01
 omit_header_text: true
 marquee: ただいま新6年生～新1年生大募集中！！まずは体験からどうですか？お申し込み・お問い合わせはお気軽に！！
 main_photo: /images/main-group-photo.jpg

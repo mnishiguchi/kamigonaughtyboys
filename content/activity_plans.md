@@ -1,7 +1,7 @@
 ---
+date: 2020-01-01
 title: 活動計画
 omit_header_text: true
-description: We'd love to hear from you
 type: page
 menu:
   main:

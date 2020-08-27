@@ -32,4 +32,4 @@ other = "Emailアドレスは必須項目です。"
 other = "送信"
 
 [taxonomyPageList]
-other = "「{{ .Title }}」関連"
+other = "「{{ .Title }}」関連のページです。"
