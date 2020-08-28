@@ -14,11 +14,19 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css" integrity="sha512-d0v474klOFSF7qD9WDvyRxAvXaWSxCHDZdnBSZQjo8BpVr6vpjwAgqetpqkKP38DzlOzdVPaLVnzzW1Ba8wB9w==" crossorigin="anonymous" />
+    {{ $stylesheet := .Site.Data.webpack_assets.app }}
+    {{ with $stylesheet.css }}
+      <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
+    {{ end }}
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js" integrity="sha512-G3jAqT2eM4MMkLMyQR5YBhvN5/Da3IG6kqgYqU9zlIH4+2a+GuMdLb5Kpxy6ItMdCfgaKlo2XFhI0dHtMJjoRw==" crossorigin="anonymous"></script>
 
     {{ range .Site.Params.custom_css }}
       <link rel="stylesheet" href="{{ relURL (.) }}">
+    {{ end }}
+
+    {{ range .Site.Params.custom_js }}
+      <script src="{{ relURL (.) }}"></script>
     {{ end }}
 
     {{ block "favicon" . }}
@@ -40,21 +48,6 @@
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
-
-    <script>
-      (function () {
-        // https://discourse.gohugo.io/t/active-links-in-menu/8717/11
-        document.addEventListener('turbolinks:load', function () {
-          const links = document.getElementsByTagName('a');
-          const currentUrl = location.href;
-          for (const link of links) {
-            if (link.href === currentUrl) {
-              link.setAttribute('aria-current', true);
-            }
-          }
-        });
-      })();
-    </script>
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
